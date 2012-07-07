@@ -1,0 +1,180 @@
+/* Harry's Comics site <c>2011 Harry Pujols */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+ul,li {
+	padding:10px;
+	margin:0;
+}
+
+body {
+	font: 62.5% Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: white;
+	border-top: solid thick black;
+}
+
+header, footer {
+	background-color: #F4F4F4;
+}
+
+a img {
+	
+}
+
+a img:hover {
+	opacity: .5;
+}
+
+header {
+	width: 100%;
+	height: 55px;
+	margin: 0;
+	padding: 5px 20px;
+	border-bottom: thin solid #999;
+}
+
+#home {
+	float: left;
+	margin: 8px 40px 0 0;
+}
+
+#home:hover {
+	
+}
+
+#social {
+   float: right;
+   margin: -25px 20px 0 0;
+   padding: 0;
+}
+
+.twitter-share-button {
+	width: 80px !important;
+}
+
+h1 {
+	margin-top: 15px;
+	font-size: 1.5em;
+}
+
+#container {
+	margin: 5px auto;
+}
+
+#slideshow {
+	height:650px;
+	float:left;
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	overflow:hidden;
+}
+
+#scroller {
+	height:100%;
+	float:left;
+	padding:0;
+}
+
+#scroller ul {
+	list-style:none;
+	display:block;
+	float:left;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+
+#scroller li {
+	-webkit-box-sizing:border-box;
+	display:block; 
+	float:left;
+	width:800px; 
+	height:600px;
+	padding: 30px 0;
+}
+
+.page img {
+	width: 800px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	padding: 20px 5px;
+	text-align: center;
+}
+
+#fb-root {
+	margin: 0 auto;
+	background-color: white;
+}
+
+#prev {
+	float: left;
+	opacity: 0;
+}
+
+#next {
+	float: right;
+}
+
+#indicator, #indicator > li {
+	display:block; 
+	list-style:none;
+	margin:0 0 5px 0;
+}
+
+#indicator {
+	clear: both;
+	margin: 30px auto;
+}
+
+#indicator > li {
+	padding: 0; 
+	float: left;
+	text-indent:-9999em;
+	width: 8px; 
+	height: 8px;
+	-webkit-border-radius:4px;
+	background: black;
+	opacity: .4;
+	overflow:hidden;
+	margin-right:4px;
+}
+
+#indicator > li.active {
+	opacity: .8;
+}
+
+#indicator > li:last-child {
+	margin:0;
+}
+
+.button {
+	font-weight: bold;
+	font-size: 5em;
+	cursor: pointer;
+	padding: 280px 20px 0 5px;
+}
+.button:hover {
+	color: gray;
+}
+
+#feed a {
+	background: #F60;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px;
+	clear: both;
+    margin: -10px 0 0 70px;	
+}
+
+
+

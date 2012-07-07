@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Print Styles */
+
+body { 
+	background: white; 
+	color: black; 
+	margin: .5in;
+	font-size: 12pt;
+	font-family: sans-serif;
+	}
+	
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img {
+	max-width: 8in;
+}
+
+li {
+	list-style: none;
+}
+
+footer, #footer, #social, .button, #indicator {
+	display: none;
+}

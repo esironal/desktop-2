@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* This is a site created by Harry Pujols */
+
+/* Sitewide */
+body {
+	font-size: 62.5%;
+	background-color: #666;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	border: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1, h2 {
+	font-size: 1.4em;
+}
+
+/* IDs */
+#container {
+	width: 800px;
+	height: 600px;
+	margin: 10% auto;
+	background-color: gray;
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	position: relative;
+	}
+	
+/* Header */
+
+header {
+	background-color: white;
+	padding: 0 0 2px 10px;
+	border-bottom: thin solid black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	-moz-border-top-left-radius: 15px;
+	-moz-border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+}
+
+header h1, header img, header ul, header li, header h2 {
+	display: inline;
+}
+
+header h1 img {
+ margin-top: 5px;
+}
+
+header h2 {
+	margin-right: 10px;
+}
+
+header h2 a:hover, header ul ul li a:hover {
+	background-color: black;
+	color: white;
+}
+
+header ul ul, header ul ul li {
+	display: block;
+}
+
+header ul ul {
+	position: absolute;
+	top: 29px;
+	left: 235px;
+	border: thin solid black;
+	background-color: white;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+/* Main Menu */
+
+nav {
+	float: right;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#trash {
+	margin-top: 100%;
+}
