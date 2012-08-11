@@ -1,4 +1,5 @@
 <script type="text/javascript">
+$(document).ready(function() {
 //rollover function
 $("#.rollover img").hover(
  function()
@@ -21,7 +22,7 @@ $(function() {
   <div id="content">
       <ul>
       	<li class="dragdrop"><a href="http://www.facebook.com/harrypujols" target="_blank" class="rollover">
-        <img src="images/facebook_off.png" alt="facebook" />
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook_off.png" alt="facebook" />
         <p>facebook</p>
         </a></li>
         <li class="dragdrop"><a href="http://www.twitter.com/harrypujols" target="_blank" class="rollover">

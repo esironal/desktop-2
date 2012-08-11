@@ -1,8 +1,12 @@
 //home page
 
 $(document).ready(function() {
+  
+//ajax folder load
+var address = $('#folder').attr('rel');
+
 //to load the waiting image while the real image loads
-var loading = $('<img />').attr('src', 'images/watch.gif').attr('id', 'loading');
+var loading = $('<img />').attr('src', address+'/images/watch.gif').attr('id', 'loading');
 
 //share shows dropdown menu
 $('a#share').click(function() {
@@ -26,23 +30,23 @@ $(".dragdrop").hover(function() {
 //ajax functions
   $("a#link1").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load("ajax/about.html");
+	  $("div#loader").load(address+'/ajax/about.html');
   });
   $("a#link2").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load("ajax/contact.html");
+	  $("div#loader").load(address+'/ajax/contact.html');
   });
  $("a#link3").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load("ajax/social.html");
+	  $("div#loader").load(address+'/ajax/social.html');
   });
     $("a#link5").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load("ajax/interactive.html");
+	  $("div#loader").load(address+'/ajax/interactive.html');
   });
 	  $("a#link6").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load("ajax/advertising01.html");
+	  $("div#loader").load(address+'/ajax/advertising01.html');
   });
   
 //rollover function

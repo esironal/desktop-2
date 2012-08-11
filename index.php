@@ -21,6 +21,7 @@
 </head>
 <body>
 <div id="container" class="rounded">
+<div id="folder" rel="<?php bloginfo('stylesheet_directory'); ?>" ></div>
     <header>
     <span id="logo"><a href="<?php bloginfo('url'); ?>" id="reset"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/lizard.png" width="36" height="17" alt="reset" /></a></span>
     <h2><a id="link1">About</a></h2>
