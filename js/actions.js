@@ -3,7 +3,7 @@
 $(document).ready(function() {
   
 //ajax folder load
-var address = $('#folder').attr('rel');
+var address = $('#loader').attr('rel');
 
 //to load the waiting image while the real image loads
 var loading = $('<img />').attr('src', address+'/images/watch.gif').attr('id', 'loading');
@@ -46,7 +46,7 @@ $(".dragdrop").hover(function() {
   });
 	  $("a#link6").click(function() {
 	  $("div#loader").append(loading);
-	  $("div#loader").load(address+'/ajax/advertising01.html');
+	  $("div#loader").load(address+'/ajax/advertising01.php');
   });
   
 //rollover function
